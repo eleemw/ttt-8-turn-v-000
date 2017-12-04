@@ -47,10 +47,10 @@ def turn(board)
   user_input = gets.strip # receive user input
   # convert input to an index
   input_to_index(user_input)
-  # index is valid
-     # make move for index
-     # show board
-  # else
+  if valid_move?(board, index) # index is valid
+     move(board, index, token = "X") # make move for index
+     display_board(board) # show board
+  else
     # ask for input again until you get a valid input
   #end
 
