@@ -1,17 +1,3 @@
-
-# receive user input
-# convert input to an index
-
-# index is valid
-   # make move for index
-   # show board
-# else
-  # ask for input again until you get a valid input
-#end
-
-
-# #display_board accepts a board and prints
-# out the current state.
 board = ["  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  "]
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
@@ -58,4 +44,17 @@ end
 
 def turn(board)
   puts "Please enter 1-9:" # ask for input 1-9
+  # receive user input
+  # convert input to an index
+
+  # index is valid
+     # make move for index
+     # show board
+  # else
+    # ask for input again until you get a valid input
+  #end
+
+
+  # #display_board accepts a board and prints
+  # out the current state.
 end
