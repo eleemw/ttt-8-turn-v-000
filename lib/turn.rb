@@ -52,7 +52,7 @@ def turn(board)
      display_board(board) # show board
   else
     # ask for input again until you get a valid input
-  #end
+  end 
 
 
   # #display_board accepts a board and prints
