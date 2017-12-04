@@ -48,7 +48,7 @@ def turn(board)
   # convert input to an index
   input_to_index(user_input)
   index = input_to_index
-  
+
   if valid_move?(board, index) # index is valid
      puts {move(board, index, token = "X")} # make move for index
      display_board(board) # show board
