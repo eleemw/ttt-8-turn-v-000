@@ -46,9 +46,9 @@ def turn(board)
   puts "Please enter 1-9:" # ask for input 1-9
   user_input = gets.strip # receive user input
   # convert input to an index
-  input_to_index(user_input)
+  input_to_index(user_input) = index 
   if valid_move?(board, index) # index is valid
-     move(board, index, token = "X") # make move for index
+     puts {move(board, index, token = "X")} # make move for index
      display_board(board) # show board
   else
     turn(board)# ask for input again until you get a valid input
