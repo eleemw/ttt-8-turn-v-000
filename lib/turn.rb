@@ -8,4 +8,9 @@
    # show board
 # else
   # ask for input again until you get a valid input
-#end     
+#end
+
+
+def display_board(board)
+  puts
+end   
