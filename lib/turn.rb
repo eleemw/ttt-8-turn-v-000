@@ -49,6 +49,7 @@ def turn(board)
 
   if valid_move?(board, index) # index is valid
       move(board, index, token = "X")# make move for index and show board
+      display_board(board)
   else
     turn(board)# ask for input again until you get a valid input
   end
