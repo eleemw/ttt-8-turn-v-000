@@ -53,6 +53,4 @@ def turn(board)
   else
     turn(board)# ask for input again until you get a valid input
   end
-  # #display_board accepts a board and prints
-  # out the current state.
 end
