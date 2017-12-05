@@ -51,7 +51,7 @@ def turn(board)
      puts {move(board, index, token = "X")} # make move for index
      display_board(board) # show board
   else
-    turn(board)# ask for input again until you get a valid input
+ # ask for input again until you get a valid input
   end
   # #display_board accepts a board and prints
   # out the current state.
